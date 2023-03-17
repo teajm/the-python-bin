@@ -34,7 +34,7 @@ def sendMail():
     body = 'Check the amazon link' + URL
     msg = f"Subject: {subject}\n\n{body}"
     
-    server.sendmail('myricktaylor@gmail.com','taylor.myrick@dynetics.com'
+    server.sendmail('myricktaylor@gmail.com','taylormyrick@gmail.com'
                 ,msg)
     print('email sent!')
     
